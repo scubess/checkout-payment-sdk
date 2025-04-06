@@ -11,8 +11,11 @@
     "jsx": "react-jsx",
     "lib": ["ESNext"],
     "module": "ESNext",
+    "outDir": "dist",
+    "declaration": true,
+    "emitDeclarationOnly": false,
     "moduleResolution": "bundler",
-    "noEmit": true,
+    "noEmit": false,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noImplicitUseStrict": false,
@@ -25,5 +28,8 @@
     "strict": true,
     "target": "ESNext",
     "verbatimModuleSyntax": true
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }

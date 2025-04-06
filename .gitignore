@@ -4,11 +4,10 @@
 
 # XDE
 .expo/
-
 # VSCode
 .vscode/
 jsconfig.json
-
+example/.yarn/*
 # Xcode
 #
 build/
@@ -68,6 +67,13 @@ android/keystores/debug.keystore
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+.yarn/*
+!example/.yarn/patches
+!example/.yarn/plugins
+!example/.yarn/releases
+!example/.yarn/sdks
+!example/.yarn/versions
 
 # Expo
 .expo/
